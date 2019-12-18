@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="testngfeatures.DemoSoftAssert">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testngfeatures.DemoSoftAssert -->
+      <class name="testngfeatures.DemoAssertions">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test6"/>
+          <include name="Test2"/>
+          <include name="Test7"/>
+        </methods>
+      </class> <!-- testngfeatures.DemoAssertions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

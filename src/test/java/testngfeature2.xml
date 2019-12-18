@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test">
+		<classes>
+			<class name="testngfeatures.MercuryApplication" >
+			<methods>
+				<include name="openbrowser"></include>
+				<include name="openurl"></include>
+				<exclude name="bookFlight"></exclude>
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
